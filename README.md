@@ -1,13 +1,13 @@
 # cakeFlight
 
-cakeFlight is a Telegram bot for comparing flight options across combinations of departure airports, arrival airports, and travel dates. It guides the user through the search inputs in chat and returns formatted results from Google Flights lookups.
+cakeFlight is a Telegram bot for comparing flight options across departure airports, arrival airports, and travel dates. It guides the user through the search inputs in chat and returns formatted results from Google Flights lookups.
 
 ## Features
 
 - Multi-airport IATA input for departure and arrival locations
 - Multiple outbound and return date combinations
 - Guided Telegram conversation flow with input validation
-- Search progress feedback and formatted flight results
+- Search progress messages and formatted flight results
 - `/start` and `/cancel` commands
 
 ## Requirements
@@ -27,7 +27,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Set the bot token in your environment before starting the application:
+Set the bot token in your environment before starting the app:
 
 ```bash
 export BOT_TOKEN=your_telegram_bot_token
@@ -60,4 +60,4 @@ Keep `BOT_TOKEN` out of source control. Use environment variables or a local, ig
 
 ## Disclaimer
 
-cakeFlight is an independent project and is not affiliated with Google or Google Flights. Use it in accordance with the terms of the services you access.
+cakeFlight is an independent project and is not affiliated with Google or Google Flights. Use it according to the terms of the services you access.
